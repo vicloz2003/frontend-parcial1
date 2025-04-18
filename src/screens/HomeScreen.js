@@ -1,7 +1,9 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap';
+import {Link} from 'react-router-dom'
+import { Form,Button,Row, Col } from 'react-bootstrap';
 import products from '../products.js';
 import Product from '../components/Product.js';
+import Message from '../components/Message.js'
 
 function HomeScreen() {
   console.log('Productos:', products);
