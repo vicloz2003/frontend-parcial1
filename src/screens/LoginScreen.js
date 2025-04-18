@@ -13,7 +13,7 @@ function LoginScreen() {
     }
 
   return (
-   <>
+   <FormContainer>
     <Form onSubmit={submitHandler}>
       <Form.Group controlId='password'>
       <Form.Label>Email Address</Form.Label>
@@ -55,7 +55,7 @@ function LoginScreen() {
       </Col>
 
     </Row>
-    </>
+    </FormContainer>
      
 
         
